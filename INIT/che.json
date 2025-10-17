@@ -1,0 +1,293 @@
+{
+  "semesterOne": [
+    {
+      "subject": "1. MATHEMATICS-I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. CHEMISTRY-I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PHYSICS OF MATERIALS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROFESSIONAL ETHICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. MATERIAL AND ENERGY BALANCE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. ELEMENTS OF BIOTECHNOLOGY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. CHEMICAL ANALYSIS LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterTwo": [
+    {
+      "subject": "1. MATHEMATICS II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROFESSIONAL COMMUNICATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. CHEMISTRY-II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. INTRODUCTION TO COMPUTING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. PROCESS FLUID MECHANICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. MECHANICAL OPERATIONS",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterThree": [
+    {
+      "subject": "1. MATHEMATICS-III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROCESS HEAT TRANSFER",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. MATERIALS SCIENCE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. CHEMICAL ENGINEERING THERMODYNAMICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. HM ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. FLUID AND PARTICLE MECHANICS LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFour": [
+    {
+      "subject": "1. MATHEMATICS-IV",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. CHEMICAL REACTION ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. MASS TRANSFER OPERATIONS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROGRAMME ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DIGITAL AUTOMATION ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. ENTREPRENEURSHIP / INNOVATION ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. HEAT AND MASS TRANSFER LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 1",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFive": [
+    {
+      "subject": "1. PROCESS INSTRUMENTATION AND CONTROL",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. CHEMICAL TECHNOLOGY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROGRAMME ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. HM ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. REACTION ENGINEERING AND PROCESS CONTROL LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. LAB ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 2",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSix": [
+    {
+      "subject": "1. CHEMICAL PROCESS EQUIPMENT DESIGN",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. TRANSPORT PHENOMENA",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROGRAMME ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DIGITAL AUTOMATION ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. HM ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROJECT PART I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 3",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSeven": [
+    {
+      "subject": "1. OPEN ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. OPEN ELECTIVE - 5",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - 6",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 7",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 8",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. SUMMER INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROJECT PART II / INTERNSHIP / PROGRAMME ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 4",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterEight": [
+    {
+      "subject": "1. PROJECT PART III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROGRAMME ELECTIVES",
+      "playlists": [],
+      "pyq": []
+    }
+  ]
+}

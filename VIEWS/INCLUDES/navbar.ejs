@@ -1,0 +1,137 @@
+<% layout('LAYOUTS/boilerplate.ejs') %>
+<style>
+   .nav-link {
+        
+        font-size: large;
+    }
+    .nav-link:hover {
+        color: #05668d;
+        
+    }
+    .dropdown-menu {
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgb(34, 231, 231);
+        margin-left: 0px;
+    }
+    .dropdown-item:active {
+      background-color: #c0e8ff !important;
+      color: black ;
+    }
+    nav{
+        background: linear-gradient(to right, #d4fcf4, #8ed6ff);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    /* .light-nav {
+      background: linear-gradient(to right, #d4fcf4, #8ed6ff);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    } */
+    .dark-body{
+      background-color: black !important;
+      
+    }
+    .dark-nav .navbar-brand {
+      color: white !important;
+    }
+    .dark-nav .nav-link {
+  color: white !important;
+}
+ @media (min-width: 768px){
+  .show2 {
+    display: none;
+    
+  }
+}
+@media (max-width:767px){
+  .show1 {
+    display: none;
+    
+  }
+  
+} 
+.dropdown-item p {
+  margin: 0;
+  padding: 0;
+} 
+.dark-nav i {
+  color: white !important;
+}
+    .dark-body{
+      color: rgb(55, 52, 52);
+    }
+    .dark-nav{
+      
+      background-image: none !important;
+      background: none !important;
+      background-color: black !important;
+      color: white !important;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+</style>
+
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"><b style=" font-size:x-large; text-decoration: none; border: none;">Syllabite</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="/">Home</a>
+                <div class="btn-group">
+                <a class="dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false">
+                  Departments
+                </a>
+                
+                <ul class="dropdown-menu mt-4">
+                  <% if (departments && departments.length >= 8) { %>
+                  <li><a class="dropdown-item" href="/department/<%= departments[0]._id %>"><span class="show1">Computer Science</span><span class="show2">CSE</span></a></li>
+                  <li><a class="dropdown-item" href="/department/<%= departments[1]._id %>"><span class="show1">Electronics And Communication</span><span class="show2">ECE</span></a></li>
+                  <li><a class="dropdown-item" href="/department/<%= departments[2]._id %>"><span class="show1">Electrical & Electronics</span><span class="show2">EEE</span></a></li>
+                  <li><a class="dropdown-item" href="/department/<%= departments[3]._id %>"><span class="show1">Mechanical</span><span class="show2">MECH</span></a></li>
+                  <li><a class="dropdown-item" href="/department/<%= departments[4]._id %>"><span class="show1">Civil</span><span class="show2">CE</span></a></li>
+                  <li><a class="dropdown-item" href="/department/<%= departments[5]._id %>"><span class="show1">Chemical</span><span class="show2">CH</span></a></li>
+                  <li><a class="dropdown-item" href="/department/<%= departments[6]._id %>"><span class="show1">Production</span><span class="show2">PE</span></a></li>
+                  <li><a class="dropdown-item" href="/department/<%= departments[7]._id %>"><span class="show1">Material Science</span><span class="show2">MSE</span></a></li>
+                  <% } else { %>
+                      <li><a class="dropdown-item disabled" href="#">Departments unavailable</a></li>
+                  <% } %>
+              </ul>
+                  
+              </div>
+        <a class="nav-link" href="/clubs">Clubs </a>
+        <a class="nav-link " href="/about">About</a>
+        
+        
+      </div>
+      <div class="navbar-nav ms-auto d-flex">
+        <% if(!currUser) {%>
+          <a class="nav-link " href="/login">Login </a> 
+          <a class="nav-link " href="/signup">Sign Up</a>
+        <% }%>  
+        <% if(currUser) {%>
+          <a class="nav-link " href="/logout">Log Out</a>
+          <a class="nav-link" href="/profile"><i class="fa-solid fa-circle-user" style="font-size:x-large; color: #4B5563;" ></i></a>
+        <% }%>  
+        
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<script>
+  let mode = document.getElementById('arun');
+  let nav = document.querySelector('nav');
+  let body = document.querySelector('body');
+  mode.addEventListener('click' ,() => {
+    nav.classList.toggle('dark-nav');
+    body.classList.toggle('dark-body');
+  })
+
+</script>
+
+
+
+  

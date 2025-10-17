@@ -1,0 +1,116 @@
+<% layout('LAYOUTS/boilerplate.ejs') %>
+
+
+<body>
+    <%- include('../INCLUDES/navbar.ejs') %>
+    <%- include("../INCLUDES/flash.ejs") %>
+    <section class="back mt-4">
+        <div class="container  text-center p-3">
+            <h2><b >Welcome to Syllabite</b></h2>
+            <p class="adjust">With Syllabite, you can easily jump into specific modules through direct youtube links and access helpful PDFs to make studying simpler. Syllabite keeps everything organized in one place so you can focus on learning, not searching.</p>
+        </div>
+    </section>
+
+    <div class="container mt-3 mb-5">
+        <div class="row justify-content-center">
+            <% if(departments && departments.length >= 8) { %>
+                
+            <div class="card cd-10 cse m-3 text-center col-9 col-sm-5 col-md-3" >
+                    <a  class="text-decoration-none" href="/department/<%= departments[0]._id %>">
+                        <img src="/IMAGES/computer-science.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title cdtit-10">Computer Science</h5>
+                            <p class="card-text cdtxt-10">
+                                Learn about programming, algorithms, data structures, and modern technologies powering the digital world.
+                            </p>
+                        </div>
+                    </a>
+            </div>   
+           
+            
+            <div class="card cd-10 ece m-3 text-center col-9 col-sm-5 col-md-3" style="display: inline-block;"  >
+                <a class="text-decoration-none" href="/department/<%= departments[1]._id %>">
+                    <img src="/IMAGES/electronics-communication.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title  cdtit-10">Electronics And Communication</h5>
+                        <p class="card-text  cdtxt-10">Dive into electronics, embedded systems, communication, and modern technologies driving smart devices and networks.
+                    </p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="card cd-10 eee m-3 text-center col-9  col-sm-5 col-md-3" style="display: inline-block;" >
+                <a  class="text-decoration-none" href="/department/<%= departments[2]._id %>">
+                    <img src="/IMAGES/electronics-electrical.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cdtit-10">Electrical And Electronics</h5>
+                        <p class="card-text cdtxt-10">Study electric circuits, machines, power systems, and control mechanisms in electrical technology and infrastructure.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card cd-10 mech m-3 text-center col-9 col-sm-5 col-md-3" >
+                
+                <a  class="text-decoration-none" href="/department/<%= departments[3]._id %>">
+                    <img src="/IMAGES/mechanical.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cdtit-10">Mechanical</h5>
+                        <p class="card-text cdtxt-10">Study mechanics, thermodynamics, design, and the principles behind machines and manufacturing processes.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card cd-10 civil m-3 text-center col-9 col-sm-5 col-md-3" >
+                
+                <a  class="text-decoration-none" href="/department/<%= departments[4]._id %>">
+                    <img src="/IMAGES/civil.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cdtit-10">Civil</h5>
+                        <p class="card-text cdtxt-10">Learn about structural design, construction, geotechnical engineering, and infrastructure development for the modern world.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card cd-10 che m-3 text-center col-9 col-sm-5 col-md-3">
+                <a  class="text-decoration-none" href="/department/<%= departments[5]._id %>">
+                    <img src="/IMAGES/chemical.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cdtit-10">Chemical</h5>
+                        <p class="card-text cdtxt-10">Delve into chemical reactions, process engineering, and technologies for converting raw materials into valuable products.
+                    </p>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="card cd-10 pe m-3 text-center col-9 col-sm-5 col-md-3">
+                <a  class="text-decoration-none" href="/department/<%= departments[6]._id %>">
+                    <img src="/IMAGES/production.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cdtit-10">Production</h5>
+                        <p class="card-text cdtxt-10">Focus on manufacturing processes, industrial systems, and the optimization of production workflows in industries.
+                        </p>
+                    </div>
+                </a>
+                
+            </div>
+            <div class="card cd-10 mse m-3 text-center col-9 col-sm-5 col-md-3" >
+                 <a  class="text-decoration-none" href="/department/<%= departments[7]._id %>">
+                    <img src="/IMAGES/material-science.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cdtit-10">Material Science</h5>
+                        <p class="card-text cdtxt-10">Explore how metals, ceramics, and composites shape modern technology from aerospace to nanotech through their structure, properties, and processing.
+                        </p>
+                    </div>
+                </a>
+                
+            </div>
+            <% } %>
+        </div>
+    </div>
+    <%- include('../INCLUDES/footer.ejs') %>
+    
+</body>
+

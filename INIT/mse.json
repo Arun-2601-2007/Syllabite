@@ -1,0 +1,263 @@
+{
+  "semesterOne": [
+    {
+      "subject": "1. MATHEMATICS I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PHYSICS OF MATERIALS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROFESSIONAL COMMUNICATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. INTRODUCTION TO MATERIALS SCIENCE AND ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. INTRODUCTION TO ELECTRONICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. ENGINEERING GRAPHICS",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterTwo": [
+    {
+      "subject": "1. MATHEMATICS II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. CHEMISTRY OF MATERIALS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. THERMODYNAMICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. MATERIAL PROPERTIES",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. MECHANICAL WORKSHOP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. PROFESSIONAL ETHICS",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterThree": [
+    {
+      "subject": "1. MATHEMATICS III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. DA ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. HM ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. METALLURGICAL ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. TRANSPORT PHENOMENA",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. MATERIALS TESTING LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFour": [
+    {
+      "subject": "1. MATHEMATICS IV",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. ENTREPRENEURSHIP / INNOVATION ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. POLYMER SCIENCE AND TECHNOLOGY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. CERAMICS AND GLASSES",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. MATERIALS CHARACTERISATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFive": [
+    {
+      "subject": "1. HM ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. COMPOSITE MATERIALS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. CORROSION SCIENCE AND ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. MECHANICAL BEHAVIOUR OF MATERIALS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. PROGRAMME ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. FUNCTIONAL MATERIALS LABORATORY",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSix": [
+    {
+      "subject": "1. DA ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. COMPUTATIONAL METHODS IN MATERIALS SCIENCE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. HM ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROGRAMME ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. PROJECT PART I",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSeven": [
+    {
+      "subject": "1. PROGRAMME ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. OPEN ELECTIVE - 5",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - 6",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 7",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 8",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. SUMMER INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROJECT PART II / INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterEight": [
+    {
+      "subject": "1. PROJECT PART III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROGRAMME ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROGRAMME ELECTIVE - 5",
+      "playlists": [],
+      "pyq": []
+    }
+  ]
+}

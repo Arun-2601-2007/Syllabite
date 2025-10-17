@@ -1,0 +1,69 @@
+<% layout('LAYOUTS/boilerplate.ejs') %>
+
+<body>
+    <%- include('../INCLUDES/navbar.ejs') %>
+    <%- include("../INCLUDES/flash.ejs") %>
+    
+    <div class="container ">
+        <div class="container inner-1 mt-5 mb-5 " style="background-color: aliceblue;">
+        <div class="row mb-3 justify-content-center mt-1 mb-3" style="background:linear-gradient(to right,#d4fcf4, #8ed6ff); border-radius: 10px 10px 0 0 ;">
+            <h2 class="text-center">Given credentials</h2>
+        </div>
+        <div class="ms-3 me-3 mb-3">
+            <h3 class="mb-3">Basic Information</h3>
+            <div class="row">
+                <div class="col-6">Full Name</div>
+                <div class="col-6"><%= currUser.fullname %></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-6">Username</div>
+                <div class="col-6"><%= currUser.username %></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-6">Role</div>
+                <div class="col-6"><%= currUser.role %></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-6">Department</div>
+                <div class="col-6"><%= currUser.department %></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-6">Roll Number</div>
+                <div class="col-6"><%= currUser.roll %></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-6">Semester</div>
+                <div class="col-6"><%= currUser.semester %></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-6">CGPA</div>
+                <div class="col-6"><%= currUser.cgpa %></div>
+            </div>
+        </div>
+
+        <div class="ms-3 me-3 mt-3 mb-4">
+            <h3 class="mb-3">Contact Details</h3>
+            <div class="row">
+                <div class="col-6">Email</div>
+                <div class="col-6"><%= currUser.email %></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-6">Phone </div>
+                <div class="col-6"><%= currUser.phone %></div>
+            </div>
+            
+        </div>
+        <a href="/profile/<%= currUser._id %>/edit"><button  type="submit" style="width: 100%; background: linear-gradient(to right, #d4fcf4, #8ed6ff); color: black;" class="btn btn-primary mb-4">Update</button></a>
+    </div>
+    </div>
+
+     <%- include('../INCLUDES/footer.ejs') %>
+</body>
+

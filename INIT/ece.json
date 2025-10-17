@@ -1,0 +1,344 @@
+{
+  "semesterOne": [
+    {
+      "subject": "1. MATHEMATICS I",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/advanced_engineering_mathematics.pdf",
+        "../PDFS/maths_midsem.pdf",
+        "../PDFS/maths_endsem.pdf"
+      ]
+    },
+    {
+      "subject": "2. BIOLOGY FOR ENGINEERS",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/biology_midsem.pdf",
+        "../PDFS/biology_endsem.pdf"
+      ]
+    },
+    {
+      "subject": "3. PROFESSIONAL ETHICS",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/professional_ethics_reference.pdf",
+        "../PDFS/professional_ethics_midsem.pdf"
+      ]
+    },
+    {
+      "subject": "4. INTRODUCTION TO PROGRAMMING",
+      "playlists": [
+        "https://www.youtube.com/watch?v=ERCMXc8x7mc"
+      ],
+      "pyq": [
+        "../PDFS/programming_midsem.pdf",
+        "../PDFS/programming_endsem.pdf"
+      ]
+    },
+    {
+      "subject": "5. INTRODUCTION TO ELECTRONICS",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/fundamentals_of_electric_circuits_McGraw_Hill_Education.pdf",
+        "../PDFS/electronics_midsem.pdf",
+        "../PDFS/electronics_endsem.pdf"
+      ]
+    },
+    {
+      "subject": "6. DIGITAL CIRCUITS & SYSTEMS",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/dcs_midsem.pdf",
+        "../PDFS/dcs_enddsem.pdf"
+      ]
+    },
+    {
+      "subject": "7. PRACTICAL ELECTRONICS",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterTwo": [
+    {
+      "subject": "1. MATHEMATICS II",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/maths_semtwo_midsem.pdf"
+      ]
+    },
+    {
+      "subject": "2. ELECTRICITY AND MAGNETISM",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/griffiths_introduction_to_erlectrodynamics_fourthedition.pdf",
+        "../PDFS/electrodynamics_griffiths_solutions_book.pdf",
+        "../PDFS/em_midsem.pdf",
+        "../PDFS/em_endsem.pdf"
+      ]
+    },
+    {
+      "subject": "3. PROFESSIONAL COMMUNICATION",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/pc_midsem.pdf",
+        "../PDFS/pc_endsem.pdf"
+      ]
+    },
+    {
+      "subject": "4. ELECTRIC CIRCUITS & NETWORKS",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/fundamentals_of_electric_circuits_McGraw_Hill_Education.pdf",
+        "../PDFS/ecn_midsem.pdf",
+        "../PDFS/ecn_endsem.pdf"
+      ]
+    },
+    {
+      "subject": "5. SEMICONDUCTOR DEVICES",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/semiconductor_physics_and_devices_basic_principles.pdf",
+        "../PDFS/semiconductors_midsem.pdf",
+        "../PDFS/semiconductors_endsem.pdf"
+      ]
+    },
+    {
+      "subject": "6. DIGITAL SYSTEMS LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterThree": [
+    {
+      "subject": "1. MATHEMATICS III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. SIGNALS & SYSTEMS",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/signals_and_systems_complete_notes.pdf"
+      ]
+    },
+    {
+      "subject": "3. ANALOG CIRCUITS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. COMPUTER ARCHITECTURE & PROCESSORS",
+      "playlists": [],
+      "pyq": [
+        "../PDFS/computer_architecture_and_processors_reference_book.pdf"
+      ]
+    },
+    {
+      "subject": "5. ENGINEERING ELECTROMAGNETICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. ANALOG CIRCUITS LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. DA ELECTIVE - 1",
+      "playlists": [
+        "https://www.youtube.com/watch?v=NCrlyaXMAn8&list=PLJ5C_6qdAvBELELTSPgzYkQg3HgclQh-5"
+      ],
+      "pyq": []
+    }
+  ],
+  "semesterFour": [
+    {
+      "subject": "1. MATHEMATICS IV",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. FOUNDATIONS OF MACHINE LEARNING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. COMMUNICATION ENGINEERING I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. VLSI DESIGN",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. MICROCONTROLLER LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. ENTREPRENEURSHIP / INNOVATION ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. DA ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 1",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFive": [
+    {
+      "subject": "1. CONTROL SYSTEMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. DIGITAL SIGNAL PROCESSING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. COMMUNICATION ENGINEERING II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. COMMUNICATION ENGINEERING LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. HM ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. OPEN ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 2",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSix": [
+    {
+      "subject": "1. WIRELESS COMMUNICATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. COMPUTER NETWORKS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROJECT",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. TECHNICAL SEMINAR",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. HM ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 3",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSeven": [
+    {
+      "subject": "1. SUMMER INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROGRAM ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROJECT / INTERNSHIP / PROGRAM ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. HM ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 5",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 6",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. OPEN ELECTIVE - 7",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 4",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterEight": [
+    {
+      "subject": "1. PROJECT / INTERNSHIP PROGRAM",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROGRAM ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROGRAM ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 8",
+      "playlists": [],
+      "pyq": []
+    }
+  ]
+}

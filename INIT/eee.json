@@ -1,0 +1,308 @@
+{
+  "semesterOne": [
+    {
+      "subject": "1. MATHEMATICS I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. ENGINEERING GRAPHICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. INTRODUCTION TO ELECTRICAL ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. ELECTRICAL MEASUREMENTS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. ELECTRONIC CIRCUITS - I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. PROFESSIONAL ETHICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. BASIC ELECTRICAL ENGINEERING LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterTwo": [
+    {
+      "subject": "1. MATHEMATICS II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. ELECTRICITY AND MAGNETISM",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROFESSIONAL COMMUNICATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. CIRCUITS AND NETWORKS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. ENGINEERING MECHANICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. DIGITAL CIRCUITS AND SYSTEMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. ELECTRICAL MEASUREMENTS LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterThree": [
+    {
+      "subject": "1. MATHEMATICS III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. DIGITAL / AUTOMATION TECHNOLOGIES - I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. SIGNALS AND SYSTEMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. MICROPROCESSORS AND MICROCONTROLLERS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. ELECTRICAL MACHINES - I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. ELECTRONIC CIRCUITS – II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. ELECTRONICS LAB – I",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFour": [
+    {
+      "subject": "1. MATHEMATICS IV",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. MECHANICAL ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. POWER SYSTEMS - I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. POWER ELECTRONICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. ELECTRICAL MACHINES - II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. CONTROL SYSTEMS - I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. ELECTRICAL MACHINES LAB – I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. ELECTRONICS LAB – II",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFive": [
+    {
+      "subject": "1. DIGITAL SIGNAL PROCESSING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. POWER SYSTEMS - II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. CONTROL SYSTEMS - II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. ANALOG INTEGRATED CIRCUITS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. HUMANITIES - I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. DIGITAL / AUTOMATION TECHNOLOGIES - II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. POWER ELECTRONICS LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. ELECTRICAL MACHINES LAB – II",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSix": [
+    {
+      "subject": "1. INTRODUCTION TO COMMUNICATION SYSTEMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. INSTRUMENTATION SYSTEMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. HUMANITIES - II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. ELECTRICAL ENGINEERING DRAWING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROJECT",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. POWER SYSTEMS LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "9. CONTROL SYSTEMS LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSeven": [
+    {
+      "subject": "1. HUMANITIES - III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROGRAM ELECTIVE - I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - IV",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - V",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. SUMMER INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROJECT",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterEight": [
+    {
+      "subject": "1. PROJECT",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROGRAMME ELECTIVE - II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROGRAMME ELECTIVE - III",
+      "playlists": [],
+      "pyq": []
+    }
+  ]
+}

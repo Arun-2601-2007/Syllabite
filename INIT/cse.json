@@ -1,0 +1,273 @@
+{
+  "semesterOne": [
+    {
+      "subject": "1. MATHEMATICS I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROFESSIONAL COMMUNICATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. COMPUTER PROGRAMMING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. INTRODUCTION TO COMPUTING SCIENCE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DISCRETE STRUCTURES I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. PROGRAMMING LABORATORY",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterTwo": [
+    {
+      "subject": "1. MATHEMATICS II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PHYSICS OF MATERIALS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. BIOLOGY FOR ENGINEERS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROGRAM DESIGN",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. LOGIC DESIGN",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. DISCRETE STRUCTURES II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROGRAM DESIGN LABORATORY",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterThree": [
+    {
+      "subject": "1. MATHEMATICS III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. DATA STRUCTURES AND ALGORITHMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. COMPUTER ORGANIZATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DATA STRUCTURES AND ALGORITHMS LABORATORY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. HARDWARE LABORATORY",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFour": [
+    {
+      "subject": "1. MATHEMATICS IV",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. DATABASE MANAGEMENT SYSTEMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPERATING SYSTEMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. THEORY OF COMPUTATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. PROFESSIONAL ETHICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. DA ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. MINOR COURSE - 1",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFive": [
+    {
+      "subject": "1. COMPUTER NETWORKS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. COMPILER DESIGN",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. DESIGN AND ANALYSIS OF ALGORITHMS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. HUMANITIES ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DA ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. MINOR COURSE - 2",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSix": [
+    {
+      "subject": "1. SOFTWARE ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. ARTIFICIAL INTELLIGENCE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. HUMANITIES ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. PROJECT",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. MINOR COURSE - 3",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSeven": [
+    {
+      "subject": "1. HUMANITIES ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. OPEN ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 5",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 6",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. SUMMER INTERNSHI",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROJECT / PROGRAMME ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 4",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterEight": [
+    {
+      "subject": "1. PROJECT / PROGRAMME ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROGRAMME ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - 7",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 8",
+      "playlists": [],
+      "pyq": []
+    }
+  ]
+}

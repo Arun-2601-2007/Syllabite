@@ -1,0 +1,318 @@
+{
+  "semesterOne": [
+    {
+      "subject": "1. MATHEMATICS I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. MECHANICS AND WAVES",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. ELECTRICAL ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROFESSIONAL COMMUNICATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. ENGINEERING MECHANICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. COMPUTER PROGRAMMING AND NUMERICAL METHODS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. ELECTRICAL ENGINEERING LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterTwo": [
+    {
+      "subject": "1. MATHEMATICS II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. ENGINEERING GRAPHICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. MATERIALS SCIENCE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. SOLID MECHANICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. INTRODUCTION TO FLUID MECHANICS AND MACHINERY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. THERMODYNAMICS & HEAT TRANSFER",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. MECHANICAL WORKSHOP",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterThree": [
+    {
+      "subject": "1. MATHEMATICS III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROFESSIONAL ETHICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. FUNDAMENTALS OF MANAGEMENT",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. MANUFACTURING TECHNOLOGY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DA ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PRODUCTION TECHNOLOGY LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MACHINE DRAWING",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFour": [
+    {
+      "subject": "1. MATHEMATICS IV",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. METROLOGY & COMPUTER AIDED INSPECTION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. DESIGN OF MACHINE ELEMENTS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PRODUCTION MANAGEMENT",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. ENTREPRENEURSHIP / INNOVATION ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. STRENGTH OF MATERIALS LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. FLUID MECHANICS LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "9. MINOR COURSE - 1",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFive": [
+    {
+      "subject": "1. SUBTRACTIVE AND ADDITIVE MANUFACTURING PROCESSES",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. INDUSTRIAL ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. QUANTITATIVE TECHNIQUES FOR MANAGEMENT",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. HM ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DA ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. MACHINING SCIENCE LABORATORY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. METROLOGY & COMPUTER AIDED INSPECTION LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "9. MINOR COURSE - 2",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSix": [
+    {
+      "subject": "1. COMPUTER INTEGRATED MANUFACTURING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. HM ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROGRAMME ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 5",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. MANAGEMENT SCIENCE LABORATORY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. COMPUTER INTEGRATED MANUFACTURING LABORATORY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. PROJECT - PART I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "9. MINOR COURSE - 3",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSeven": [
+    {
+      "subject": "1. HM ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROGRAMME ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - 6",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 7",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 8",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. SUMMER INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROJECT - PART II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 4",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterEight": [
+    {
+      "subject": "1. PROJECT - PART III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROGRAMME ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROGRAMME ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<% layout('LAYOUTS/boilerplate.ejs') %>
+
+<body>
+    <%- include('../INCLUDES/navbar.ejs') %>
+     <%- include("../INCLUDES/flash.ejs") %>
+    <div class="container cnt-5 mt-5" style="background-color: white;">
+        <h2 class="text-center">Upload Form</h2>
+        <form action="/upload/playlistLink" method="POST" class="mb-3 needs-validation" > 
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group mb-3 mt-3">
+                        <label class="input-group-text" for="inputGroupSelect01" required>Department</label>
+                        <select class="form-select" id="inputGroupSelect01" name="department" required >
+                            <option class="opt-1" selected disabled hidden>Choose...</option>
+                            <option class="opt-1" value="cse">CSE</option>
+                            <option class="opt-1" value="ece">ECE</option>
+                            <option class="opt-1" value="eee">EEE</option>
+                            <option  class="opt-1" value="mech">MECH</option>
+                            <option class="opt-1" value="civil">CIVIL</option>
+                            <option class="opt-1" value="che">CHE</option>
+                            <option class="opt-1" value="pe">pe</option>
+                            <option class="opt-1" value="mse">MSE</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group mb-3 col-md-4 mt-3">
+                        <select class="form-select" id="inputGroupSelect02" name="semesterNumber" required>
+                            <option class="opt-1" selected disabled hidden>Choose...</option>
+                            <option class="opt-1" value="semesterOne">semester one</option>
+                            <option class="opt-1" value="semesterTwo">semester two</option>
+                            <option class="opt-1" value="semesterThree">semester three</option>
+                            <option class="opt-1" value="semesterFour">semester four</option>
+                            <option class="opt-1" value="semesterFive">semester five</option>
+                            <option class="opt-1" value="semesterSix">semester six</option>
+                            <option class="opt-1" value="semesterSeven">semester seven</option>
+                            <option class="opt-1" value="semesterEight">semester eight</option>
+                            
+                        </select>
+                        <label class="input-group-text" for="inputGroupSelect02">Semester</label>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Course Number</span>
+                        <input type="number" name="courseNumber" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-2">
+                    <div class="input-group mb-3">
+                        <input type="url" class="form-control" id="inputGroupFile01" placeholder="Playlist link" name="playlisturl" required >
+                    </div  >
+                </div>
+            </div>
+            <button type="submit" style="width: 100%; background: linear-gradient(to right, #d4fcf4, #8ed6ff); color: black;" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
+
+    <%- include('../INCLUDES/footer.ejs') %>
+</body>

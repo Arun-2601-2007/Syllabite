@@ -1,0 +1,313 @@
+{
+  "semesterOne": [
+    {
+      "subject": "1. MATHEMATICS I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. CHEMISTRY FOR CIVIL ENGINEERS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROFESSIONAL COMMUNICATION",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. ENGINEERING MECHANICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DA – ELECTIVE 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. BUILDING TECHNOLOGY / ENGINEERING GEOLOGY",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterTwo": [
+    {
+      "subject": "1. MATHEMATICS II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. ENGINEERING GRAPHICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. MECHANICS OF SOLIDS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. MECHANICS OF FLUIDS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. SURVEYING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. ENGINEERING GEOLOGY / BUILDING TECHNOLOGY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. SURVEYING LAB",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterThree": [
+    {
+      "subject": "1. MATHEMATICS III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. STRUCTURAL ANALYSIS I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN CHANNEL HYDRAULICS AND HYDRAULIC MACHINES",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. HIGHWAY ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. GEOTECHNICAL ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. FUNCTIONAL DESIGN OF BUILDINGS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. MATERIALS TESTING LAB I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. BUILDING DESIGN AND DRAWING",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFour": [
+    {
+      "subject": "1. MATHEMATICS IV",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. STRUCTURAL ANALYSIS II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. FOUNDATION ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. ENVIRONMENTAL ENGINEERING I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. ENTREPRENEURSHIP / INNOVATION ELECTIVE",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. MATERIAL TESTING LAB II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. GEOTECHNICAL ENGINEERING LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "9. MINOR COURSE - 1",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterFive": [
+    {
+      "subject": "1. DESIGN OF REINFORCED CONCRETE STRUCTURES",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. ENVIRONMENTAL ENGINEERING II",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. ENGINEERING HYDROLOGY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. PROFESSIONAL ETHICS",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. DA – ELECTIVE 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. HM – ELECTIVE 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. OPEN ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. ENVIRONMENTAL ENGINEERING LAB",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "9. MINOR COURSE - 2",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSix": [
+    {
+      "subject": "1. DESIGN OF STEEL STRUCTURES",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. IRRIGATION ENGINEERING AND HYDRAULIC STRUCTURES",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. AIRPORT AND RAILWAY ENGINEERING",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. HM – ELECTIVE 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. OPEN ELECTIVE - 4",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. COMPUTER APPLICATIONS LABORATORY",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. PROJECT: PART I",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "9. MINOR COURSE - 3",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterSeven": [
+    {
+      "subject": "1. HM – ELECTIVE 3",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. OPEN ELECTIVE - 5",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. OPEN ELECTIVE - 6",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "4. OPEN ELECTIVE - 7",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "5. OPEN ELECTIVE - 8",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "6. INTERNSHIP",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "7. PROJECT: PART II / PROGRAMME ELECTIVE - 1",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "8. MINOR COURSE - 4",
+      "playlists": [],
+      "pyq": []
+    }
+  ],
+  "semesterEight": [
+    {
+      "subject": "1. PROJECT: PART III",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "2. PROGRAMME ELECTIVE - 2",
+      "playlists": [],
+      "pyq": []
+    },
+    {
+      "subject": "3. PROGRAMME ELECTIVE - 3",
+      "playlists": [],
+      "pyq": []
+    }
+  ]
+}

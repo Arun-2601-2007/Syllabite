@@ -1,0 +1,132 @@
+<% layout('LAYOUTS/boilerplate.ejs') %>
+
+<body >
+    <%- include('../INCLUDES/navbar.ejs') %>
+    <%- include("../INCLUDES/flash.ejs") %>
+        
+    <div class="container cnt-3 mt-5 mb-5 "  >
+        <div class="row ">
+            <h2 class="text-center mt-2">Sign Up</h2>
+            <form action="/signup" method="POST" class="needs-validation" novalidate>
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+                    <label for="fullname" class="form-label">Full Name</label>
+                    <input type="text" name="fullname" placeholder="Full name" class="form-control" id="fullname" required>
+                    
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" name="username" placeholder="Username" class="form-control" id="username" required>
+                    <div class="valid-feedback">
+                        Username looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Username should be valid!
+                    </div>
+                </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" name="email" placeholder="Enter your email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <div class="valid-feedback">
+                        Nice email!!
+                    </div>
+                    <div class="invalid-feedback">
+                        Email should be valid!
+                    </div>
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" name="password" placeholder="Password" class="form-control" id="exampleInputPassword1" required>
+                    <div class="valid-feedback">
+                        Nice password!
+                    </div>
+                    <div class="invalid-feedback">
+                        Passsword should be valid!
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group mb-3 mt-3">
+                        <label class="input-group-text" for="inputGroupSelect01" required>Department</label>
+                        <select class="form-select" id="inputGroupSelect01" name="department" required >
+                            <option selected disabled hidden>Choose...</option>
+                            <option value="CSE">CSE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="MECH">MECH</option>
+                            <option value="CIVIL">CIVIL</option>
+                            <option value="CH">CHE</option>
+                            <option value="PE">PE</option>
+                            <option value="MSE">MSE</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group mb-3 col-md-4 mt-3">
+                        <select class="form-select" id="inputGroupSelect02" name="semester" required>
+                            <option selected disabled hidden>Choose...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            
+                        </select>
+                        <label class="input-group-text" for="inputGroupSelect02">Semester</label>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <div class="input-group mb-3 col-md-4 mt-3">
+                            <label class="input-group-text" for="inputGroupSelect03">Role</label>
+                            <select class="form-select" id="inputGroupSelect03" name="role" required>
+                                <option selected disabled hidden>Choose...</option>
+                                <option value="Student">Student</option>
+                                <option value="Faculty">Faculty</option>
+                            </select>
+                        
+                    </div>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        
+                        <input type="number" name="cgpa" placeholder="CGPA" class="form-control" id="cgpa"  step="0.01">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-md-6">
+                        <label for="exampleInputEmail2" class="form-label">Phone Number</label>
+                        <input type="number" name="phone" placeholder="Enter your phone number" class="form-control" id="exampleInputEmail2" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="exampleInputEmail2" class="form-label">Institute Roll Number</label>
+                        <input type="text" name="roll" placeholder="Enter your roll number" class="form-control" id="exampleInputEmail2" required>
+                    </div>
+                </div>
+                 
+                <button type="submit" style="width: 100%; background: linear-gradient(to right, #d4fcf4, #8ed6ff); color: black;" class="btn btn-primary">Sign up</button>
+            </form>
+            
+            <p class="text-center mt-2">Already have an account : &nbsp; <a href="/login" style="color:rgb(79, 79, 245); text-decoration: none;">Log in</a></p>
+        </div>
+        <!-- <hr>
+        <div class="row justify-content-center mb-2">
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+        </div> -->
+    </div>
+
+
+
+    <%- include('../INCLUDES/footer.ejs') %>
+</body>
+
+
+
+

@@ -1,0 +1,51 @@
+<% layout('LAYOUTS/boilerplate.ejs') %>
+
+<style>
+    
+    
+</style>
+
+<body >
+    <%- include('../INCLUDES/navbar.ejs') %>
+    <%- include("../INCLUDES/flash.ejs") %>
+    
+        
+    <div class="container cnt-1 mt-5 mb-5 ">
+        <div class="row">
+            <h2 class="text-center mt-2">Login</h2>
+        <form method="POST" action="/login" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Username</label>
+                <input type="text" name="username" placeholder="Enter your username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                <div class="valid-feedback">
+                    Username looks good!
+                </div>
+                 <div class="invalid-feedback">
+                    Username should be valid!
+                </div>
+                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" name="password" placeholder="Password" class="form-control" id="exampleInputPassword1" required>
+                <div class="valid-feedback">
+                    Nice password!
+                </div>
+                 <div class="invalid-feedback">
+                    Passsword should be valid!
+                </div>
+            </div>
+            <button  type="submit" style="width: 100%; background: linear-gradient(to right, #d4fcf4, #8ed6ff); color: black;" class="btn btn-primary">Log in</button>
+        </form>
+        
+        <p class="text-center mt-2">Don't have an account? &nbsp; <a href="/signup" style="color:rgb(79, 79, 245); text-decoration: none;">Sign Up</a></p>
+        </div>
+    </div>
+
+
+
+
+    <%- include('../INCLUDES/footer.ejs') %>
+</body>
+
+
