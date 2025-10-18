@@ -21,7 +21,7 @@ const storage = new CloudinaryStorage({
     public_id: (req, file) => {
       // remove existing extension and add timestamp
       const name = file.originalname.replace(/\.[^/.]+$/, '');
-      return `${name}-${Date.now()}`;
+      return `${name}-${Date.now()}.pdf`;
     }
   },
   
