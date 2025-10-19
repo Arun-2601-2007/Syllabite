@@ -15,6 +15,8 @@ const storage = new CloudinaryStorage({
     folder: 'syllabite_DEV',
     allowed_formats: ["pdf"],
     resource_type: "raw",
+    use_filename: true,
+    unique_filename: true,
     // use_filename: true,         // keep the original name
     // unique_filename: false,      // don’t randomize it
     // // overwrite : true,
