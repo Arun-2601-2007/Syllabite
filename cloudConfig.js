@@ -13,22 +13,8 @@ const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
   params: {
     folder: 'syllabite_DEV',
-    // resource_type: 'raw',       // raw for PDFs
     allowed_formats: ['pdf'],   // only PDFs
-    // public_id: (req, file) => {
-    //   // generate unique name without extension
-    //   const name = file.originalname.replace(/\.[^/.]+$/, '');
-    //   return `${name}-${Date.now()}`;  // Cloudinary will keep .pdf internally
-    // }
-
-    // use_filename: true,         // keep the original name
-    // unique_filename: false,      // don’t randomize it
-    // // overwrite : true,
-    // public_id: (req, file) => {
-    //   // remove existing extension and add timestamp
-    //   const name = file.originalname.replace(/\.[^/.]+$/, '');
-    //   return `${name}-${Date.now()}`;
-    // }
+    
   },
   
 });
