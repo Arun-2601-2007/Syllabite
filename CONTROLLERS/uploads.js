@@ -12,7 +12,7 @@ const departmentsList = ["cse", "ece", "eee","mech", "civil", "che","pe","mse"];
 module.exports.upoadUrl = async (req,res) =>{
     let {department,semesterNumber,courseNumber} = req.body;
     const departments = await Department.find({});
-    let url = req.file.path;
+    let url = req.file.path + ".pdf";
     let departmentData = {};
     let idx = departmentsList.indexOf(department);
     let num = parseInt(courseNumber);
