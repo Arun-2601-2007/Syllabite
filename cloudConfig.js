@@ -15,14 +15,14 @@ const storage = new CloudinaryStorage({
     folder: 'syllabite_DEV',
     allowed_formats: ["pdf"],
     resource_type: "raw",
-    use_filename: true,         // keep the original name
-    unique_filename: false,      // don’t randomize it
-    // overwrite : true,
-    public_id: (req, file) => {
-      // remove existing extension and add timestamp
-      const name = file.originalname.replace(/\.[^/.]+$/, '');
-      return `${name}-${Date.now()}`;
-    }
+    // use_filename: true,         // keep the original name
+    // unique_filename: false,      // don’t randomize it
+    // // overwrite : true,
+    // public_id: (req, file) => {
+    //   // remove existing extension and add timestamp
+    //   const name = file.originalname.replace(/\.[^/.]+$/, '');
+    //   return `${name}-${Date.now()}`;
+    // }
   },
   
 });
