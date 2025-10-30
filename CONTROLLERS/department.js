@@ -2,7 +2,7 @@ const Review = require('../MODELS/review.js');
 const Department = require('../MODELS/departmentSchema.js');
 const ExpressError = require('../UTILS/ExpressError.js');
 
-const ids = ['68f0dba153c5b83d5891b8d7'];
+const ids = ['69039c4c0644399f207d1ae5'];
 
 // Delete review function
 module.exports.destroyReview = async (req,res) => {

@@ -17,14 +17,6 @@ const contributorSchema = new Schema({
         type:String,
         required : true,
     },
-    phone : {
-        type :Number,
-        default:null,
-    },
-    roll : {
-        type :String,
-        default:null,
-    },
     
     
 

@@ -4,8 +4,8 @@ const passport = require('passport');
 
 module.exports.signUpUser = async (req,res,next) =>{
     try{
-        let {username , email,password,fullname,department,semester,role,cgpa,phone,roll} = req.body;
-        const newUser = new User({email,username,fullname,role,department,semester,cgpa,phone,roll});
+        let {username , email,password,fullname} = req.body;
+        const newUser = new User({email,username,fullname});
        const registeredUser = await User.register(newUser,password);
         req.login(registeredUser,(err) =>{
             if(err){

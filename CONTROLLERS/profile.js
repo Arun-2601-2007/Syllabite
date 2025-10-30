@@ -29,11 +29,6 @@ module.exports.updateProfile = async (req,res) => {
         user.fullname   = req.body.fullname;
         user.username   = req.body.username;
         user.email      = req.body.email;
-        user.department = req.body.department;
-        user.semester   = req.body.semester;
-        user.role       = req.body.role;
-        user.cgpa       = req.body.cgpa;
-        user.phone      = req.body.phone;
         // Handle password securely
         if (req.body.password) {
             await user.setPassword(req.body.password);

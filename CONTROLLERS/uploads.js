@@ -33,7 +33,7 @@ module.exports.upoadUrl = async (req,res) =>{
     pdfs.push(url);
     await departmentData.save();
     req.flash('success',"File uploaded successfully!");
-    let presentContibutor = {fullname : req.user.fullname,email:req.user.email,phone:req.user.phone,roll:req.user.roll,link:url};
+    let presentContibutor = {fullname : req.user.fullname,email:req.user.email,link:url};
     
     await Contributor.insertOne(presentContibutor);
     const backURL = req.header('Referer') || '/';
@@ -80,7 +80,7 @@ module.exports.uploadLink = async(req,res) => {
     playlistLinks.push(playlisturl);
     await departmentData.save();
     req.flash('success',"Playlist link added successfully!");
-    let presentContibutor = {fullname : req.user.fullname,email:req.user.email,phoner:req.user.phone,roll:req.user.roll,link:playlisturl};
+    let presentContibutor = {fullname : req.user.fullname,email:req.user.email,link:playlisturl};
     await Contributor.create(presentContibutor);
     const backURL = req.header('Referer') || '/';
     res.redirect(backURL);
