@@ -69,7 +69,7 @@
     
 </style>
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><b style=" font-size:x-large; text-decoration: none; border: none;">Syllabite</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,6 +105,8 @@
         
       </div>
       <div class="navbar-nav ms-auto d-flex">
+        <a class="nav-link " href="/upload/link">Links</a> 
+        <a class="nav-link " href="/upload">Docs</a> 
         <% if(!currUser) {%>
           <a class="nav-link " href="/login">Login </a> 
           <a class="nav-link " href="/signup">Sign Up</a>

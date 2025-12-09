@@ -4,7 +4,7 @@
     <%- include('../INCLUDES/navbar.ejs') %>
      <%- include("../INCLUDES/flash.ejs") %>
     <div class="container cnt-5 mt-5" style="background-color: white;">
-        <h2 class="text-center">Upload Form</h2>
+        <h2 class="text-center mt-2">Upload Playlists</h2>
         <form action="/upload/playlistLink" method="POST" class="mb-3 needs-validation" > 
             <div class="row">
                 <div class="col-md-6">
@@ -53,7 +53,9 @@
                     </div  >
                 </div>
             </div>
-            <button type="submit" style="width: 100%; background: linear-gradient(to right, #d4fcf4, #8ed6ff); color: black;" class="btn btn-primary">Upload</button>
+            
+                <button type="submit" style="width: 100%; background: linear-gradient(to right, #d4fcf4, #8ed6ff); color: black;" class="btn btn-primary mb-1">Add Playlist</button>
+            
         </form>
     </div>
 
