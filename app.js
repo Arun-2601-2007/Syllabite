@@ -111,6 +111,9 @@ app.use('/',authentication);
 app.use('/',syllabite);
 app.use('/',destroy);
 
+app.get('/add/experience',(req,res) => {
+    res.render('WEBPAGES/experience.ejs');
+})
 
 app.use((err,req,res,next) =>{
     let {status=500,message="Some Error Occured At Backend"} = err;
