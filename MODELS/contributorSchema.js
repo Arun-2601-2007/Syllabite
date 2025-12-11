@@ -21,7 +21,7 @@ const contributorSchema = new Schema({
     
 
 });
-// contributorSchema.plugin(passportLocalMongoose);
+
 const Contributor = mongoose.model('Contributor',contributorSchema);
 
 module.exports = Contributor;

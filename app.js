@@ -17,6 +17,8 @@ const authentication = require('./ROUTES/authentication.js');
 const syllabite = require('./ROUTES/syllabite.js');
 const destroy = require('./ROUTES/destroy.js');
 
+const InterviewExperience = require('./MODELS/interviewSchema.js');
+
 const multer = require('multer');
 const {storage} = require('./cloudConfig.js');
 const upload = multer({storage});
@@ -111,9 +113,32 @@ app.use('/',authentication);
 app.use('/',syllabite);
 app.use('/',destroy);
 
-app.get('/add/experience',(req,res) => {
+app.get('/interview/new',(req,res) => {
     res.render('WEBPAGES/experience.ejs');
-})
+});
+
+app.get('/interview/:id',async (req,res) =>{
+    const interview = await InterviewExperience.findById(req.params.id);
+    res.render("WEBPAGES/interviewDetail.ejs", { interview });
+});
+
+
+
+app.post('/interview',async (req,res) => {
+    const {jobtitle,company,interviewtype,totalrounds,status,createdAt,summary,content} = req.body;
+    const experience = {jobtitle:jobtitle,company:company,interviewtype:interviewtype,totalrounds:totalrounds,status:status,
+        createdAt:createdAt,summary:summary,content:content
+    };
+    await InterviewExperience.create(experience);
+    res.redirect('/interviews');
+});
+
+app.get("/interviews", async (req, res) => {
+    const data = await InterviewExperience.find();
+    res.render("WEBPAGES/interviewList.ejs", { data });
+});
+
+
 
 app.use((err,req,res,next) =>{
     let {status=500,message="Some Error Occured At Backend"} = err;

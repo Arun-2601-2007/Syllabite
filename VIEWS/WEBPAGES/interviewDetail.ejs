@@ -1,0 +1,20 @@
+<% layout('LAYOUTS/boilerplate.ejs') %>
+
+    <body>
+        <%- include('../INCLUDES/navbar.ejs') %>
+        <%- include("../INCLUDES/flash.ejs") %>
+        <div class="container">
+            <div class="container">
+                <div class="container inner-10 rad mt-5 mb-5" style="background-color: white;">
+                    <div class="row row-20 justify-content-center" style="background:linear-gradient(to right,#d4fcf4, #8ed6ff); height: 2.5rem; font-size: 1.5rem;">
+                        Full Experience
+                    </div>
+                    <div class="row justify-content-center">
+                        <div><%- interview.content %></div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('../INCLUDES/footer.ejs') %>
+    </body>
