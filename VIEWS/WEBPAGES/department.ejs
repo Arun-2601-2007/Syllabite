@@ -37,9 +37,9 @@
                                             <div class="row text-center  font">
                                                 <!-- <div class="col-1 d-flex justify-content-center imp"><p>Status</p> <i class="d-sm-none fa-solid fa-check" style="color: rgb(105, 182, 234)"></i></div> -->
                                                  
-                                                <div class="col-5 text-center imp">Playlist Number</div>
-                                                <div class="col-2 text-center imp"><p>Resource</p><i class="d-sm-none text-center fa-solid fa-circle-play" style="color: rgb(61, 190, 241); "></i></div>
-                                                <div class="col-3 text-center imp"><p>PYQ's & Ref</p><i class="d-sm-none text-center fa-solid fa-file" style="color: orange;"></i></div>
+                                                
+                                                <div class="col-5 text-center imp"><p>Resource</p><i class="d-sm-none text-center fa-solid fa-circle-play" style="color: rgb(61, 190, 241); "></i></div>
+                                                <div class="col-5 text-center imp"><p>PYQ's & Ref</p><i class="d-sm-none text-center fa-solid fa-file" style="color: orange;"></i></div>
                                                 
                                             </div>
                                         </div>
@@ -60,7 +60,7 @@
 
                                                     
                                                      <% if(i < playLen) {%>
-                                                        <div class="col-5 adjust1">PLAYLIST &nbsp; <%= count1 %></div>
+                                        
                                                         <div class="col-2">
                                                             <form method="POST" action="/deleteLink/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>" class="needs-validation" novalidate>
                                                                 <% if(ids.includes(currUser._id.toString())) {%>
@@ -130,7 +130,7 @@
     <% if(currUser) { %>
         
         <div class="container mt-3">
-            <h2 class="text-center mt-4">Write a Review</h2>
+            <h2 class="text-center mt-4 p-1">Write a Review</h2>
             <form method="POST" action="/<%= departmentData._id%>/reviews" class="needs-validation" novalidate>
                 
                 <div class="form-floating">

@@ -1,6 +1,6 @@
 {
-  "engines":{
-    "node" : "20.19.3"
+  "engines": {
+    "node": "20.19.3"
   },
   "name": "syllabite",
   "version": "1.0.0",
@@ -21,6 +21,7 @@
     "ejs-mate": "^4.0.0",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
+    "method-override": "^3.0.0",
     "mongoose": "^8.16.5",
     "multer": "^2.0.2",
     "multer-storage-cloudinary": "^4.0.0",

@@ -19,6 +19,8 @@ const destroy = require('./ROUTES/destroy.js');
 
 const InterviewExperience = require('./MODELS/interviewSchema.js');
 
+const methodOverride = require("method-override");
+app.use(methodOverride("_method"));
 const multer = require('multer');
 const {storage} = require('./cloudConfig.js');
 const upload = multer({storage});
@@ -114,26 +116,106 @@ app.use('/',syllabite);
 app.use('/',destroy);
 
 app.get('/interview/new',(req,res) => {
+    if(!req.isAuthenticated()){
+        req.flash("error","Please log in to start exploring Syllabite.");
+        return res.redirect('/login');
+    }
     res.render('WEBPAGES/experience.ejs');
 });
 
-app.get('/interview/:id',async (req,res) =>{
+app.put("/interview/:id", async (req, res) => {
+    if(!req.isAuthenticated()){
+        req.flash("error","Please log in to start exploring Syllabite.");
+        return res.redirect('/login');
+    }
     const interview = await InterviewExperience.findById(req.params.id);
-    res.render("WEBPAGES/interviewDetail.ejs", { interview });
+    if (!interview) {
+        req.flash("error", "Interview Experience not found.");
+        return res.redirect('/interviews');
+    }
+    if(!interview.author.equals(req.user._id)){
+        req.flash("error",`Sorry ${req.user.username}, you’re not the owner of this Interview Experience.`);
+        return res.redirect('/interviews');
+    }
+    const {jobtitle,company,interviewtype,totalrounds,status,createdAt,summary,content} = req.body;
+    const experience = {jobtitle:jobtitle,company:company,interviewtype:interviewtype,totalrounds:totalrounds,status:status,
+        createdAt:createdAt,summary:summary,content:content,author : req.user._id
+    };
+    await InterviewExperience.findByIdAndUpdate(req.params.id,experience);
+    req.flash("success", "Interview Experience updated successfully!");
+    res.redirect(`/interview/${req.params.id}`);
 });
 
 
+app.get('/interview/:id/edit', async(req,res) => {
+    if(!req.isAuthenticated()){
+        req.flash("error","Please log in to start exploring Syllabite.");
+        return res.redirect('/login');
+    }
+    const interview = await InterviewExperience.findById(req.params.id);
+    if (!interview) {
+        req.flash("error", "Interview Experience not found.");
+        return res.redirect('/interviews');
+    }
+    if(!interview.author.equals(req.user._id)){
+        req.flash("error",`Sorry ${req.user.username}, you’re not the owner of this Interview Experience.`);
+        return res.redirect('/interviews');
+    }
+    res.render("WEBPAGES/editexp.ejs", { interview });
+})
+
+app.get('/interview/:id',async (req,res) =>{
+    if(!req.isAuthenticated()){
+        req.flash("error","Please log in to start exploring Syllabite.");
+        return res.redirect('/login');
+    }
+    const interview = await InterviewExperience.findById(req.params.id);
+    if (!interview) {
+        req.flash("error", "Interview Experience not found.");
+        return res.redirect('/interviews');
+    }
+    res.render("WEBPAGES/interviewDetail.ejs", { interview });
+});
+
+app.delete("/interview/:id", async (req, res) => {
+    if(!req.isAuthenticated()){
+        req.flash("error","Please log in to start exploring Syllabite.");
+        return res.redirect('/login');
+    }
+    const interview = await InterviewExperience.findById(req.params.id);
+    if (!interview) {
+        req.flash("error", "Interview Experience not found.");
+        return res.redirect('/interviews');
+    }
+    if(!interview.author.equals(req.user._id)){
+        req.flash("error",`Sorry ${req.user.username}, you’re not the owner of this Interview Experience.`);
+        return res.redirect('/interviews');
+    }
+    await InterviewExperience.findByIdAndDelete(req.params.id);
+    req.flash("success", "Interview experience deleted successfully!");
+    res.redirect("/interviews"); 
+});
+
 
 app.post('/interview',async (req,res) => {
+    if(!req.isAuthenticated()){
+        req.flash("error","Please log in to start exploring Syllabite.");
+        return res.redirect('/login');
+    }
     const {jobtitle,company,interviewtype,totalrounds,status,createdAt,summary,content} = req.body;
     const experience = {jobtitle:jobtitle,company:company,interviewtype:interviewtype,totalrounds:totalrounds,status:status,
-        createdAt:createdAt,summary:summary,content:content
+        createdAt:createdAt,summary:summary,content:content,author : req.user._id
     };
     await InterviewExperience.create(experience);
+    req.flash("success", "Interview Experience added successfully!");
     res.redirect('/interviews');
 });
 
 app.get("/interviews", async (req, res) => {
+    if(!req.isAuthenticated()){
+        req.flash("error","Please log in to start exploring Syllabite.");
+        return res.redirect('/login');
+    }
     const data = await InterviewExperience.find();
     res.render("WEBPAGES/interviewList.ejs", { data });
 });

@@ -45,7 +45,7 @@ box-shadow: 0 2px 8px rgb(34, 231, 231);
   transition: 0.3s ease-in-out;
 }
 .wdt {
-    width: 44%;
+    height: 50%;
 }
 .card .btn:hover {
   transform: translateY(-3px);
@@ -80,9 +80,9 @@ box-shadow: 0 2px 8px rgb(34, 231, 231);
                         <p><strong>Status :</strong> <%= experience.status %></p>
                         <p><%= experience.summary %></p>
                         <a href="/interview/<%= experience._id %>" class="btn">Read Full Experience <i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="row justify-content-evenly">
-                            <a href="/interview/<%= experience._id %>" class="btn wdt">Edit</i></a>
-                            <a href="/interview/<%= experience._id %>" class="btn wdt">Delete</i></a>
+                        <div class="d-flex gap-2 justify-content-evenly">
+                            <a href="/interview/<%= experience._id %>/edit" class="btn w-50">Edit</a>
+                            <form class="w-50"  onsubmit="return confirm('Are you sure you want to delete?');"  action="/interview/<%= experience._id %>?_method=DELETE" method="POST"><button type="submit" class="btn w-100">Delete</button></form>
                         </div>
                     </div>
                 
