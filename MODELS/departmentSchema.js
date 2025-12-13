@@ -7,64 +7,112 @@ const depSchema = new Schema({
         {
             subject: String,
             
-            playlists: [String],
-            pyq: [String]
+            playlists: [{
+                name : String,
+                link : String
+            }],
+            pyq: [{
+                name: String,
+                url : String
+            }]
         }
     ],
     semesterTwo: [
         {
             subject: String,
             
-            playlists: [String],
-            pyq: [String]
+            playlists: [{
+                name : String,
+                link : String
+            }],
+            pyq: [{
+                name: String,
+                url : String
+            }]
         }
     ],
     semesterThree: [
         {
             subject: String,
             
-            playlists: [String],
-            pyq: [String]
+            playlists: [{
+                name : String,
+                link : String
+            }],
+            pyq: [{
+                name: String,
+                url : String
+            }]
         }
     ],
     semesterFour: [
         {
             subject: String,
             
-            playlists: [String],
-            pyq: [String]
+            playlists: [{
+                name : String,
+                link : String
+            }],
+            pyq: [{
+                name: String,
+                url : String
+            }]
         }
     ],
     semesterFive: [
         {
             subject: String,
             
-            playlists: [String],
-            pyq: [String]
+            playlists: [{
+                name : String,
+                link : String
+            }],
+            pyq: [{
+                name: String,
+                url : String
+            }]
         }
     ],
     semesterSix: [
         {
             subject: String,
             
-            playlists: [String],
-            pyq: [String]
+            playlists: [{
+                name : String,
+                link : String
+            }],
+            pyq: [{
+                name: String,
+                url : String
+            }]
         }
     ],
     semesterSeven: [
         {
             subject: String,
             
-            playlists: [String],
-            pyq: [String]
+            playlists: [{
+                name : String,
+                link : String
+            }],
+            pyq: [{
+                name: String,
+                url : String
+            }]
         }
     ],
     semesterEight: [
         {
             subject: String,
             
-            playlists: [String],
-            pyq: [String]
+            playlists: [{
+                name : String,
+                link : String
+            }],
+            pyq: [{
+                name: String,
+                url : String
+            }]
         }
     ],
     reviews : [

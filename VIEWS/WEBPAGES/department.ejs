@@ -1,3 +1,18 @@
+
+<style>
+a.resource-link {
+    color: black;            
+    text-decoration: none;  
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+}
+
+a.resource-link:hover {
+    text-decoration: underline; 
+    color: black;     
+}
+
+</style>
 <% layout('LAYOUTS/boilerplate.ejs') %>
 
 
@@ -38,8 +53,8 @@
                                                 <!-- <div class="col-1 d-flex justify-content-center imp"><p>Status</p> <i class="d-sm-none fa-solid fa-check" style="color: rgb(105, 182, 234)"></i></div> -->
                                                  
                                                 
-                                                <div class="col-5 text-center imp"><p>Resource</p><i class="d-sm-none text-center fa-solid fa-circle-play" style="color: rgb(61, 190, 241); "></i></div>
-                                                <div class="col-5 text-center imp"><p>PYQ's & Ref</p><i class="d-sm-none text-center fa-solid fa-file" style="color: orange;"></i></div>
+                                                <div class="col-5 text-center imp"><p>Resource</p></div>
+                                                <div class="col-6 text-center imp"><p>PYQ's & Ref</p></div>
                                                 
                                             </div>
                                         </div>
@@ -61,15 +76,14 @@
                                                     
                                                      <% if(i < playLen) {%>
                                         
-                                                        <div class="col-2">
+                                                        <div class="col-5">
                                                             <form method="POST" action="/deleteLink/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>" class="needs-validation" novalidate>
                                                                 <% if(ids.includes(currUser._id.toString())) {%>
                                                                     <button type="submit" style="display: inline;" ><a><i class="fa-solid fa-trash " style="color: red;"></i></a></button>
                                                                  <% } %>
                                                                 <input type="hidden" name="playlistLink" value="<%= playlists[i] %>">
-                                                                <a  href="<%= playlists[i] %>" target="_blank">
-                                                         
-                                                                    <i class="fa-brands fa-youtube adjSize" style="color: rgb(61, 190, 241); font-size: 1.5rem;"></i>
+                                                                <a class="resource-link" href="<%= playlists[i] %>" target="_blank">
+                                                                    <%= playlists[i].name %>
                                                                 </a>
                                                             </form>
                                                         </div>
@@ -77,20 +91,20 @@
                                                     
                                                     
                                                     <% }else {%>
-                                                        <div class="col-5"> _ </div>
-                                                    <a class="col-2" href="">
+                            
+                                                    <a class="col-5" href="">
                                                         _
                                                     </a>
                                                     <% }%>
                                                      <% if(i<pdfLen) {%>
-                                                        <div class="col-3">
+                                                        <div class="col-5">
                                                             <div class="row">
                                                             <form method="POST" action="/delete/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>" class="needs-validation" novalidate>
                                                                 <% if(ids.includes(currUser._id.toString())) {%>
                                                                     <button type="submit" style="display: inline;"><a ><i class="fa-solid fa-trash " style="color: red;"></i></a></button>
                                                                  <% } %>
                                                                 <input type="hidden" name="pdfLink" value="<%= pdfs[i] %>">
-                                                                 <a   href="<%= pdfs[i] %>" target="_blank"><i class="fa-solid fa-file adjSize" style="color: orange; font-size: 1.4rem;"></i></a>
+                                                                 <a  class="resource-link" href="<%= pdfs[i] %>" target="_blank"><%= pdfs[i].name %></a>
                                                             </form>
                                                             
                                                             
@@ -102,7 +116,7 @@
                                                     </div>
                                                     
                                                     <% }else {%>
-                                                        <div class="col-3"> _ </div>
+                                                        <div class="col-5"> _ </div>
                                                     
                                                     <% }%>
                                                     

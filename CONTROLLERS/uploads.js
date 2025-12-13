@@ -30,8 +30,11 @@ module.exports.upoadUrl = async (req,res) =>{
       if (!semester[num-1]){
         throw new ExpressError(404, "Oops! The course number you entered is not valid.");
       }
-    let pdfs = semester[num - 1].pyq; 
-    pdfs.push(url);
+    let pdfs = semester[num - 1].pyq;
+    pdfs.push({
+        name: req.file.originalname,
+        url: url
+    });
     await departmentData.save();
     req.flash('success',"File uploaded successfully!");
     let presentContibutor = {fullname : req.user.fullname,email:req.user.email,link:url};
@@ -59,7 +62,7 @@ module.exports.uploadFormForPlaylistLink = (req,res) => {
 };
 
 module.exports.uploadLink = async(req,res) => {
-    let {department,semesterNumber,courseNumber,playlisturl} = req.body;
+    let {department,semesterNumber,courseNumber,playlisturl,playlistname} = req.body;
     const departments = await Department.find({});
     let departmentData = {};
     let idx = departmentsList.indexOf(department);
@@ -78,7 +81,10 @@ module.exports.uploadLink = async(req,res) => {
         throw new ExpressError(404, "Oops! The course number you entered is not valid.");
       }
     let playlistLinks = semester[num - 1].playlists; 
-    playlistLinks.push(playlisturl);
+    playlistLinks.push({
+        name: playlistname,
+        link: playlisturl
+    });
     await departmentData.save();
     req.flash('success',"Playlist link added successfully!");
     let presentContibutor = {fullname : req.user.fullname,email:req.user.email,link:playlisturl};
