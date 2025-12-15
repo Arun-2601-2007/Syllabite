@@ -78,7 +78,7 @@ a.resource-link:hover {
                                         
                                                         <div class="col-6">
                                                             
-                                                            <form method="POST" action="/deleteLink/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>" class="needs-validation" novalidate>
+                                                            <form method="POST" action="/deleteLink/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>?_method=DELETE" class="needs-validation" novalidate>
                                                                 <% if(ids.includes(currUser._id.toString())) {%>
                                                                     <button type="submit" style="display: inline;border: none;background:none ;" ><a><i class="fa-solid fa-trash-can"></i></i></a></button>
                                                                  <% } %>
@@ -100,7 +100,7 @@ a.resource-link:hover {
                                                      <% if(i<pdfLen) {%>
                                                         <div class="col-6">
                                                             <div class="row text-center">
-                                                            <form method="POST" action="/delete/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>" class="needs-validation" novalidate>
+                                                            <form method="POST" action="/delete/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>?_method=DELETE" class="needs-validation" novalidate>
                                                                 <% if(ids.includes(currUser._id.toString())) {%>
                                                                     <button type="submit" style="display: inline;border: none;background:none ;"><a ><i class="fa-solid fa-trash-can"></i></a></button>
                                                                  <% } %>

@@ -11,10 +11,10 @@ const controllerDestroy = require('../CONTROLLERS/destroy.js');
 // Destroy playlist link
 router
     .route("/deleteLink/:deptId/:semNum/:courseId")
-    .post(wrapAsync(controllerDestroy.destroyPlaylist));
+    .delete(wrapAsync(controllerDestroy.destroyPlaylist));
     
 router
     .route("/delete/:deptId/:semNum/:courseId")
-    .post(wrapAsync(controllerDestroy.destroyFile));
+    .delete(wrapAsync(controllerDestroy.destroyFile));
 
 module.exports = router;

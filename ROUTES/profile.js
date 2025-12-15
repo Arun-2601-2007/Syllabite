@@ -12,6 +12,6 @@ router.get('/',controllerProfile.showProfile);
 router.get('/:id/edit',controllerProfile.editProfileForm);
 
 // Update profile route
-router.post('/:id',wrapAsync(controllerProfile.updateProfile));
+router.put('/:id',wrapAsync(controllerProfile.updateProfile));
 
 module.exports = router;
