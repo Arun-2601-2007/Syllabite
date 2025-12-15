@@ -1,7 +1,7 @@
 
 <style>
 a.resource-link {
-    color: black;            
+    color: #05668d;            
     text-decoration: none;  
     font-weight: 400;
     transition: all 0.2s ease-in-out;
@@ -53,12 +53,12 @@ a.resource-link:hover {
                                                 <!-- <div class="col-1 d-flex justify-content-center imp"><p>Status</p> <i class="d-sm-none fa-solid fa-check" style="color: rgb(105, 182, 234)"></i></div> -->
                                                  
                                                 
-                                                <div class="col-5 text-center imp"><p>Resource</p></div>
+                                                <div class="col-6 text-center imp"><p>Resource</p></div>
                                                 <div class="col-6 text-center imp"><p>PYQ's & Ref</p></div>
                                                 
                                             </div>
                                         </div>
-                                        <hr class="mt-1">
+                                        <hr class="mb-1 mt-1">
                                         <% let count1 = 1; %>
                                         <% let pdfs = course.pyq%>
                                         <% let pdfLen = course.pyq.length %>
@@ -76,13 +76,14 @@ a.resource-link:hover {
                                                     
                                                      <% if(i < playLen) {%>
                                         
-                                                        <div class="col-5">
+                                                        <div class="col-6">
+                                                            
                                                             <form method="POST" action="/deleteLink/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>" class="needs-validation" novalidate>
                                                                 <% if(ids.includes(currUser._id.toString())) {%>
-                                                                    <button type="submit" style="display: inline;" ><a><i class="fa-solid fa-trash " style="color: red;"></i></a></button>
+                                                                    <button type="submit" style="display: inline;border: none;background:none ;" ><a><i class="fa-solid fa-trash-can"></i></i></a></button>
                                                                  <% } %>
-                                                                <input type="hidden" name="playlistLink" value="<%= playlists[i] %>">
-                                                                <a class="resource-link" href="<%= playlists[i] %>" target="_blank">
+                                                                <input type="hidden" name="playlistLink" value="<%= playlists[i].link %>">
+                                                                <a class="resource-link" href="<%= playlists[i].link %>" target="_blank">
                                                                     <%= playlists[i].name %>
                                                                 </a>
                                                             </form>
@@ -92,19 +93,19 @@ a.resource-link:hover {
                                                     
                                                     <% }else {%>
                             
-                                                    <a class="col-5" href="">
+                                                    <a class="col-6" style="color: #05668d;" href="">
                                                         _
                                                     </a>
                                                     <% }%>
                                                      <% if(i<pdfLen) {%>
-                                                        <div class="col-5">
-                                                            <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="row text-center">
                                                             <form method="POST" action="/delete/<%=departmentData._id.toString()%>/<%=semKey%>/<%=course._id%>" class="needs-validation" novalidate>
                                                                 <% if(ids.includes(currUser._id.toString())) {%>
-                                                                    <button type="submit" style="display: inline;"><a ><i class="fa-solid fa-trash " style="color: red;"></i></a></button>
+                                                                    <button type="submit" style="display: inline;border: none;background:none ;"><a ><i class="fa-solid fa-trash-can"></i></a></button>
                                                                  <% } %>
-                                                                <input type="hidden" name="pdfLink" value="<%= pdfs[i] %>">
-                                                                 <a  class="resource-link" href="<%= pdfs[i] %>" target="_blank"><%= pdfs[i].name %></a>
+                                                                <input type="hidden" name="pdfLink" value="<%= pdfs[i].url %>">
+                                                                 <a  class="resource-link" href="<%= pdfs[i].url %>" target="_blank"><%= pdfs[i].name.split('.')[0] %></a>
                                                             </form>
                                                             
                                                             
@@ -116,12 +117,13 @@ a.resource-link:hover {
                                                     </div>
                                                     
                                                     <% }else {%>
-                                                        <div class="col-5"> _ </div>
+                                                        <div style="color: #05668d;" class="col-6"> _ </div>
                                                     
                                                     <% }%>
                                                     
                                                 </div>
                                             </div>
+                                            <hr class="mb-0 mt-2">
                                             <% count1++; %>
                                         <% } %>
                                     </div>

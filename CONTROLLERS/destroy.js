@@ -15,7 +15,7 @@ module.exports.destroyPlaylist = async (req,res) => {
 
     for(let course of semesterData){
         if(course._id.toString() === courseId){
-            course.playlists = course.playlists.filter(item => item.trim() !== playlistLink.trim());
+            course.playlists = course.playlists.filter(item => item.link.trim() !== playlistLink.trim());
             break;
         }
     }
@@ -40,11 +40,10 @@ module.exports.destroyFile = async (req,res) => {
 
     for(let course of semesterData){
         if(course._id.toString() === courseId){
-            course.pyq = course.pyq.filter(item => item.trim() !== pdfLink.trim());
+            course.pyq = course.pyq.filter(item => item.url.trim() !== pdfLink.trim());
             break;
         }
     }
-
     department.markModified(semNum);
     await department.save();
 
